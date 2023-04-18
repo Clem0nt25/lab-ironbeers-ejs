@@ -1,0 +1,10 @@
+<div>
+    <% random.forEach(beer => { %>
+        <li><%- beer.name %></li>
+        <li><%- beer.tagline %></li>
+        <li><%- beer.description %></li>
+        <li><%- beer.food_pairing %></li>
+        <li><%- beer.brewers_tips %></li>
+        <img src=<%- beer.image_url %> alt="beer-foto">
+    <% }) %>
+</div>
